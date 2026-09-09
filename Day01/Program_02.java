@@ -6,6 +6,9 @@ class Solution {
             if(i==1){
                 
             }
+            else if(i<(nums.length-1)){
+                arr[i]=sum;
+                sum=sum+arr[i+1];
 
             
 
